@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-image:linear-gradient(#00000091 0% 100%) ,url("wallpaperflare.com_wallpaper\ \(4\).jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.quote {
+  padding: 0 15px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+}
+
+.a,
+.b {
+  padding: 10px 40px;
+  background-color: #ffffff86;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
